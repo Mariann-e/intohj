@@ -13,7 +13,7 @@ print_r($result);
    <input type="text" name="en" value="<?php echo $result[0]['fname'];?>"><br>
    <input type="text" name="sn" value="<?php echo $result[0]['lname'];?>"><br>
    <br>
-   <input type="submit" name="" value="Add"><br>
+   <input type="submit" name="" value="Tallenna"><br>
  </form>
 
  <?php include "footer.php"; ?>
